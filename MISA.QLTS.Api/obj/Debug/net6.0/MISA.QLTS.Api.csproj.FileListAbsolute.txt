@@ -1,0 +1,144 @@
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\appsettings.Development.json
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\appsettings.json
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.exe
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.deps.json
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.runtimeconfig.json
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.pdb
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Dapper.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\System.Web.Http.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MySqlConnector.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Core.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Infrastructure.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Core.pdb
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Infrastructure.pdb
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.csproj.AssemblyReference.cache
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.AssemblyInfoInputs.cache
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.AssemblyInfo.cs
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.csproj.CoreCompileInputs.cache
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\staticwebassets.build.json
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\staticwebassets.development.json
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\scopedcss\bundle\MISA.QLTS.Api.styles.css
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.csproj.CopyComplete
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\refint\MISA.QLTS.Api.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.pdb
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.genruntimeconfig.cache
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\ref\MISA.QLTS.Api.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\EPPlus.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\EPPlus.Interfaces.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\appsettings.Development.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\appsettings.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.exe
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.deps.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.runtimeconfig.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Dapper.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\EPPlus.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\EPPlus.Interfaces.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\System.Web.Http.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MySqlConnector.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Core.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Infrastructure.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Core.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Infrastructure.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.csproj.AssemblyReference.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.AssemblyInfoInputs.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.AssemblyInfo.cs
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.csproj.CoreCompileInputs.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\staticwebassets.build.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\staticwebassets.development.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\scopedcss\bundle\MISA.QLTS.Api.styles.css
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.csproj.CopyComplete
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\refint\MISA.QLTS.Api.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.genruntimeconfig.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Api\obj\Debug\net6.0\ref\MISA.QLTS.Api.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\appsettings.Development.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\appsettings.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.exe
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.deps.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.runtimeconfig.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Api.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\Dapper.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\EPPlus.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\EPPlus.Interfaces.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\System.Web.Http.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\MySqlConnector.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Core.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Infrastructure.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Core.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\bin\Debug\net6.0\MISA.QLTS.Infrastructure.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.csproj.AssemblyReference.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.AssemblyInfoInputs.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.AssemblyInfo.cs
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.csproj.CoreCompileInputs.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\staticwebassets.build.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\staticwebassets.development.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\scopedcss\bundle\MISA.QLTS.Api.styles.css
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.csproj.CopyComplete
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\refint\MISA.QLTS.Api.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\MISA.QLTS.Api.genruntimeconfig.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Api\obj\Debug\net6.0\ref\MISA.QLTS.Api.dll

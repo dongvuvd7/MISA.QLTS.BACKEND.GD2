@@ -1,0 +1,45 @@
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Infrastructure.deps.json
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Infrastructure.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Infrastructure.pdb
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Core.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Core.pdb
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.csproj.AssemblyReference.cache
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.AssemblyInfoInputs.cache
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.AssemblyInfo.cs
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.csproj.CopyComplete
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\refint\MISA.QLTS.Infrastructure.dll
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.pdb
+D:\MisaFresher\MISA.QLTS.Train\Backend\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\ref\MISA.QLTS.Infrastructure.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Infrastructure.deps.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Infrastructure.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Infrastructure.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Core.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Core.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.csproj.AssemblyReference.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.AssemblyInfoInputs.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.AssemblyInfo.cs
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.csproj.CopyComplete
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\refint\MISA.QLTS.Infrastructure.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND\MISA.QLTS.Infrastructure\obj\Debug\net6.0\ref\MISA.QLTS.Infrastructure.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Infrastructure.deps.json
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Infrastructure.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Infrastructure.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Core.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\bin\Debug\net6.0\MISA.QLTS.Core.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.csproj.AssemblyReference.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.AssemblyInfoInputs.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.AssemblyInfo.cs
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.csproj.CopyComplete
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\obj\Debug\net6.0\refint\MISA.QLTS.Infrastructure.dll
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\obj\Debug\net6.0\MISA.QLTS.Infrastructure.pdb
+D:\MISAFresher05\MISA QLTS\MISA.QLTS.BACKEND\MISA.QLTS.BACEND - Copy\MISA.QLTS.Infrastructure\obj\Debug\net6.0\ref\MISA.QLTS.Infrastructure.dll

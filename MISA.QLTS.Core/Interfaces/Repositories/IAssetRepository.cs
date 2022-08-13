@@ -57,6 +57,14 @@ namespace MISA.QLTS.Core.Interfaces.Repositories
         /// <returns>Danh sách tài sản thuộc chứng từ</returns>
         IEnumerable<Asset> GetByLicenseId(Guid licenseId);
 
+        /// <summary>
+        /// Kiểm tra xem tài sản có liên kết với chứng từ nào không
+        /// (Dùng check trước khi xóa, nếu có liên kết thì không cho xóa tài sản đó)
+        /// </summary>
+        /// <param name="assetId"></param>
+        /// <returns>Mã tài sản và Mã chứng từ nếu có</returns>
+        object CheckAssetReferencedToLicense(Guid assetId);
+
         #endregion
     }
 }

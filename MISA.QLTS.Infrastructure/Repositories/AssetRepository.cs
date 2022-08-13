@@ -18,6 +18,24 @@ namespace MISA.QLTS.Infrastructure.Repositories
         public AssetRepository(IConfiguration configuration) : base(configuration)
         {
         }
+
+        /// <summary>
+        /// Kiểm tra xem tài sản có liên kết với chứng từ nào không
+        /// (Dùng check trước khi xóa, nếu có liên kết thì không cho xóa tài sản đó)
+        /// </summary>
+        /// <param name="assetId"></param>
+        /// <returns>Mã tài sản và Mã chứng từ nếu có</returns>
+        public object CheckAssetReferencedToLicense(Guid assetId)
+        {
+            using (sqlConnection = new MySqlConnection(connectionString))
+            {
+                var sqlCommand = "SELECT a.AssetCode, l.LicenseCode FROM asset a INNER JOIN licensedetail ld ON a.AssetId = ld.AssetId INNER JOIN license l ON ld.LicenseId = l.LicenseId WHERE a.AssetId = @assetId;";
+                DynamicParameters dynamicParameters = new DynamicParameters();
+                dynamicParameters.Add("@assetId", assetId);
+                var result = sqlConnection.Query(sqlCommand, param: dynamicParameters);
+                return result;
+            }
+        }
         #endregion
 
         #region Methods

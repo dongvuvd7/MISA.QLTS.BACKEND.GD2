@@ -8,7 +8,7 @@ using MISA.QLTS.Core.Interfaces.Services;
 
 namespace MISA.QLTS.Api.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class AssetsController : BaseController<Asset>
     {
         #region Constructor
@@ -127,6 +127,18 @@ namespace MISA.QLTS.Api.Controllers
         {
             var assets = _assetRepository.GetByLicenseId(licenseId);
             return Ok(assets);
+        }
+
+        /// <summary>
+        ///  Lấy ra danh sách tài sản có tìm kiếm, phân trang theo id chứng từ
+        /// </summary>
+        /// <param name="licenseId">Id chứng từ liên kết tài sản</param>
+        /// <returns>Danh sách tài sản thuộc chứng từ tương ứng (có tìm kiếm, phân trang)</returns>
+        [HttpGet("GetFilterByLicenseId")]
+        public IActionResult GetFilterByLicenseId(Guid licenseId, string? searchText, int? pageSize, int? pageNumber)
+        {
+            var result = _assetRepository.GetFilterByLicenseId(licenseId, searchText, pageSize, pageNumber);
+            return Ok(result);
         }
 
         /// <summary>

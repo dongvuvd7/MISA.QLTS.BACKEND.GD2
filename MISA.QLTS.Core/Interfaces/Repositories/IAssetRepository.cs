@@ -58,6 +58,13 @@ namespace MISA.QLTS.Core.Interfaces.Repositories
         IEnumerable<Asset> GetByLicenseId(Guid licenseId);
 
         /// <summary>
+        ///  Lấy ra danh sách tài sản có tìm kiếm, phân trang theo id chứng từ
+        /// </summary>
+        /// <param name="licenseId">Id chứng từ liên kết tài sản</param>
+        /// <returns>Danh sách tài sản thuộc chứng từ tương ứng (có tìm kiếm, phân trang)</returns>
+        object GetFilterByLicenseId(Guid licenseId, string? searchText, int? pageSize, int? pageNumber);
+
+        /// <summary>
         /// Kiểm tra xem tài sản có liên kết với chứng từ nào không
         /// (Dùng check trước khi xóa, nếu có liên kết thì không cho xóa tài sản đó)
         /// </summary>

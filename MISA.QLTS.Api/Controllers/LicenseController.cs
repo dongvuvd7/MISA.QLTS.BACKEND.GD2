@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MISA.QLTS.Core.Entities;
 using MISA.QLTS.Core.Interfaces.Repositories;
@@ -6,6 +7,7 @@ using MISA.QLTS.Core.Interfaces.Services;
 
 namespace MISA.QLTS.Api.Controllers
 {
+    [Authorize]
     public class LicenseController : BaseController<License>
     {
         ILicenseRepository _licenseRepository;

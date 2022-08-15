@@ -8,7 +8,7 @@ using MISA.QLTS.Core.Interfaces.Services;
 
 namespace MISA.QLTS.Api.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class AssetCategoriesController : BaseController<AssetCategory>
     {
         #region Constructor

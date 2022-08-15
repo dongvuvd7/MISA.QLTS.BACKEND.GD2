@@ -9,7 +9,7 @@ namespace MISA.QLTS.Api.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     public class BaseController<MISAEntity> : ControllerBase
     {
         #region Constructor

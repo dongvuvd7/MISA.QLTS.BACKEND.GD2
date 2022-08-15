@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MISA.QLTS.Core.Interfaces.Repositories;
 
@@ -6,6 +7,7 @@ namespace MISA.QLTS.Api.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
+    [Authorize]
     public class LicenseDetailController : ControllerBase
     {
         ILicenseDetailRepository _licenseDetailRepository;

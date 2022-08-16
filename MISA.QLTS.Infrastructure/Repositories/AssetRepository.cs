@@ -213,7 +213,7 @@ namespace MISA.QLTS.Infrastructure.Repositories
                 var totalRecords = sqlConnection.QueryFirstOrDefault<int>(countCommand, param: dynamicParameters);
 
                 //Lấy ra các bản ghi theo điều kiện
-                sqlCommand = $"SELECT * " + sqlCommand + $"ORDER BY AssetId DESC LIMIT @start,@pageSize";
+                sqlCommand = $"SELECT * " + sqlCommand + $"ORDER BY AssetId LIMIT @start,@pageSize";
                 if (pageSize == null) pageSize = 0;
                 if (pageNumber == null) pageNumber = 1;
                 dynamicParameters.Add("@start", (pageNumber - 1) * pageSize);

@@ -16,6 +16,7 @@ namespace MISA.QLTS.Core.Interfaces.Repositories
         /// </summary>
         /// <param name="licenseId">id chứng từ muốn lấy</param>
         /// <returns>Các bản ghi LicenseDetail tương ứng idLicenseDetail đầu vào</returns>
+        /// Created by: VDDong (18/08/2022)
         IEnumerable<LicenseDetail> GetByLicenseId(Guid licenseId);
 
         #endregion

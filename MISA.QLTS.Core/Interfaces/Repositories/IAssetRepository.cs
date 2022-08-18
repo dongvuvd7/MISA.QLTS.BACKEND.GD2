@@ -55,6 +55,7 @@ namespace MISA.QLTS.Core.Interfaces.Repositories
         /// </summary>
         /// <param name="licenseId"></param>
         /// <returns>Danh sách tài sản thuộc chứng từ</returns>
+        /// Created by: VDDong (18/08/2022)
         IEnumerable<Asset> GetByLicenseId(Guid licenseId);
 
         /// <summary>
@@ -62,6 +63,7 @@ namespace MISA.QLTS.Core.Interfaces.Repositories
         /// </summary>
         /// <param name="licenseId">Id chứng từ liên kết tài sản</param>
         /// <returns>Danh sách tài sản thuộc chứng từ tương ứng (có tìm kiếm, phân trang)</returns>
+        /// Created by: VDDong (18/08/2022)
         object GetFilterByLicenseId(Guid licenseId, string? searchText, int? pageSize, int? pageNumber);
 
         /// <summary>
@@ -70,6 +72,7 @@ namespace MISA.QLTS.Core.Interfaces.Repositories
         /// </summary>
         /// <param name="assetId"></param>
         /// <returns>Mã tài sản và Mã chứng từ nếu có</returns>
+        /// Created by: VDDong (18/08/2022)
         object CheckAssetReferencedToLicense(Guid assetId);
 
         #endregion

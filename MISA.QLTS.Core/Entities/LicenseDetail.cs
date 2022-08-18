@@ -15,7 +15,7 @@ namespace MISA.QLTS.Core.Entities
         public Guid? AssetId { get; set; }
 
         /// <summary>
-        /// Id chứng tuwf
+        /// Id chứng từ
         /// Khóa ngoại liên kết đến khóa chính LicenseId ở bảng License
         /// </summary>
         public Guid? LicenseId { get; set; }

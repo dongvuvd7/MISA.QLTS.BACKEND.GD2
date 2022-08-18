@@ -25,6 +25,7 @@ namespace MISA.QLTS.Infrastructure.Repositories
         /// </summary>
         /// <param name="assetId"></param>
         /// <returns>Mã tài sản và Mã chứng từ nếu có</returns>
+        /// Created by: VDDong (18/08/2022)
         public object CheckAssetReferencedToLicense(Guid assetId)
         {
             using (sqlConnection = new MySqlConnection(connectionString))
@@ -182,9 +183,11 @@ namespace MISA.QLTS.Infrastructure.Repositories
 
         /// <summary>
         ///  Lấy ra danh sách tài sản có tìm kiếm, phân trang theo id chứng từ
+        ///  (Sử dụng khi mở form dialog detail license)
         /// </summary>
         /// <param name="licenseId">Id chứng từ liên kết tài sản</param>
         /// <returns>Danh sách tài sản thuộc chứng từ tương ứng (có tìm kiếm, phân trang)</returns>
+        /// Created by: VDDong (18/08/2022)
         public object GetFilterByLicenseId(Guid licenseId, string? searchText, int? pageSize, int? pageNumber)
         {
             using (sqlConnection = new MySqlConnection(connectionString))

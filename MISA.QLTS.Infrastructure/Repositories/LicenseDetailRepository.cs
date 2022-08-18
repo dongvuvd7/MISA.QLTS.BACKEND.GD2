@@ -36,6 +36,7 @@ namespace MISA.QLTS.Infrastructure.Repositories
         /// </summary>
         /// <param name="licenseId">id chứng từ muốn lấy</param>
         /// <returns>Các bản ghi LicenseDetail tương ứng idLicenseDetail đầu vào</returns>
+        /// Created by: VDDong (18/08/2022)
         public IEnumerable<LicenseDetail> GetByLicenseId(Guid licenseId)
         {
             using (sqlConnection = new MySqlConnection(connectionString))

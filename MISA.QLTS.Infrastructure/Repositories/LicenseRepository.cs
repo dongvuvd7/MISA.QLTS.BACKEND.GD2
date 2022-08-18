@@ -27,7 +27,7 @@ namespace MISA.QLTS.Infrastructure.Repositories
         /// <param name="pageSize">Số bản ghi trên 1 trang</param>
         /// <param name="pageNumber">Số thứ tự trang</param>
         /// <returns>Danh sách các bản ghi thoả mãn điều kiện</returns>
-        /// 
+        /// Created by: VDDong (18/08/2022)
         public object Filter(string? searchText, int? pageSize, int? pageNumber)
         {
             using (sqlConnection = new MySqlConnection(connectionString))
@@ -62,7 +62,7 @@ namespace MISA.QLTS.Infrastructure.Repositories
         /// Lấy mã chứng từ mới
         /// </summary>
         /// <returns>Mã chứng từ mới</returns>
-        /// 
+        /// Created by: VDDong (18/08/2022)
         public string GetNewCode()
         {
             using(sqlConnection = new MySqlConnection(connectionString))
@@ -114,7 +114,7 @@ namespace MISA.QLTS.Infrastructure.Repositories
         /// </summary>
         /// <param name="license">Chứng từ</param>
         /// <returns>Số bản ghi thêm được vào bảng LicenseDetail</returns>
-        /// 
+        /// Created by: VDDong (18/08/2022)
         public override int InsertDetail(License license)
         {
             using (sqlConnection = new MySqlConnection(connectionString))

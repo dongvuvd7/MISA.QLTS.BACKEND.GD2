@@ -23,6 +23,7 @@ namespace MISA.QLTS.Api.Controllers
         /// </summary>
         /// <param name="licenseId">id chứng từ muốn lấy</param>
         /// <returns>Các bản ghi LicenseDetail tương ứng</returns>
+        /// Created by: VDDong (18/08/2022)
         [HttpGet]
         public IActionResult GetByLicenseId(Guid licenseId)
         {

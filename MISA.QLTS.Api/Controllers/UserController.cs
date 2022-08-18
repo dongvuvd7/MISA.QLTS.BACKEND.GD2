@@ -20,6 +20,7 @@ namespace MISA.QLTS.Api.Controllers
         /// -1: Đăng nhập thất bại
         /// token ngẫu nhiên ở cookie: Đăng nhập thành công
         /// </returns>
+        /// Created by: VDDong (18/08/2022)
         [HttpPost]
         public async Task<IActionResult> OnPostAsync([FromBody] User userLogin)
         {
@@ -68,7 +69,8 @@ namespace MISA.QLTS.Api.Controllers
         /// </summary>
         /// <param name="username"></param>
         /// <param name="password"></param>
-        /// <returns></returns>
+        /// <returns>UserName: true; null: false</returns>
+        /// Created by: VDDong (18/08/2022)
         private User AuthenticateUser(string username, string password)
         {
             if (username == "vddong" && password == "123456")
@@ -89,6 +91,7 @@ namespace MISA.QLTS.Api.Controllers
         /// Hàm logout, xóa cookie
         /// </summary>
         /// <returns></returns>
+        /// Created by: VDDong (18/08/2022)
         [HttpGet]
         public async Task<IActionResult> LogOut()
         {

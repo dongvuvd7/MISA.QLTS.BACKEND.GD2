@@ -219,7 +219,6 @@ namespace MISA.QLTS.Infrastructure.Repositories
         {
             using (sqlConnection = new MySqlConnection(connectionString))
             {
-
                 //Khai báo các biến tên bảng, danh sách các trường, danh sách param
                 var tableName = typeof(MISAEntity).Name;
                 var listUpdate = string.Empty;

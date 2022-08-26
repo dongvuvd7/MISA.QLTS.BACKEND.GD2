@@ -119,33 +119,88 @@ namespace MISA.QLTS.Infrastructure.Repositories
         {
             using (sqlConnection = new MySqlConnection(connectionString))
             {
-                var result = 0;
+                //var result = 0;
 
-                //Xóa hết các bản ghi LicenseDetail theo licenseId trong bảng LicenseDetail
-                var sqlCommand = "DELETE FROM LicenseDetail WHERE LicenseId = @LicenseId";
+                ////Xóa hết các bản ghi LicenseDetail theo licenseId trong bảng LicenseDetail
+                //var sqlCommand = "DELETE FROM LicenseDetail WHERE LicenseId = @LicenseId";
+                //DynamicParameters dynamicParameters = new DynamicParameters();
+                //dynamicParameters.Add("@LicenseId", license.LicenseId);
+                //sqlConnection.Execute(sqlCommand, param: dynamicParameters);
+
+                ////Thêm lại các bản ghi vào bảng LicenseDetail
+                //sqlCommand = "";
+                //for (int i = 0; i < license.LicenseDetail.Length; i++)
+                //{
+                //    //LicenseId vẫn đang được lưu từ query trước nên không cần add param licenseId
+                //    //Mã tài sản
+                //    var assetId = license.LicenseDetail[i].AssetId;
+                //    //Chi tiết thông tin [{"giá trị": x, "nguồn nguyên giá": y}]
+                //    var detail = license.LicenseDetail[i].Detail;
+                //    //Mã bản ghi LicenseDetail
+                //    var newId = Guid.NewGuid();
+
+                //    sqlCommand += $"INSERT INTO LicenseDetail (LicenseDetailId, LicenseId, AssetId, Detail) VALUES (@newId{i}, @LicenseId, @AssetId{i}, @Detail{i});";
+                //    dynamicParameters.Add($"@AssetId{i}", assetId);
+                //    dynamicParameters.Add($"@Detail{i}", detail);
+                //    dynamicParameters.Add($"@newId{i}", newId);
+                //}
+                ////Thực thi
+                //result = sqlConnection.Execute(sqlCommand, param: dynamicParameters);
+
+                //return result;
+
+
+                var result = 0;
+                //Lấy những bản ghi trong bảng licensedetail có LicenseId là licenseId đang sửa ra
+                var sqlCommand = "SELECT * FROM LicenseDetail WHERE LicenseId = @LicenseId";
                 DynamicParameters dynamicParameters = new DynamicParameters();
                 dynamicParameters.Add("@LicenseId", license.LicenseId);
-                sqlConnection.Execute(sqlCommand, param: dynamicParameters);
-
-                //Thêm lại các bản ghi vào bảng LicenseDetail
-                sqlCommand = "";
+                var oldLicenseDetails = sqlConnection.Query<LicenseDetail>(sqlCommand, param: dynamicParameters);
+                //So sánh oldLicenseDetails với license.LicenseDetail thông qua AssetId
+                //Nếu không có AssetId trong oldLicenseDetails thì thêm mới vào bảng LicenseDetail
+                //Nếu có AssetId trong oldLicenseDetails thì so sánh Detail, nếu khác thì update, nếu giống thì không update
+                //Còn những oldLicenseDetails có AssetId không thuộc license.LicenseDetail thì xóa bản ghi đó
                 for (int i = 0; i < license.LicenseDetail.Length; i++)
                 {
-                    //LicenseId vẫn đang được lưu từ query trước nên không cần add param licenseId
-                    //Mã tài sản
                     var assetId = license.LicenseDetail[i].AssetId;
-                    //Chi tiết thông tin [{"giá trị": x, "nguồn nguyên giá": y}]
                     var detail = license.LicenseDetail[i].Detail;
-                    //Mã bản ghi LicenseDetail
                     var newId = Guid.NewGuid();
-
-                    sqlCommand += $"INSERT INTO LicenseDetail (LicenseDetailId, LicenseId, AssetId, Detail) VALUES (@newId{i}, @LicenseId, @AssetId{i}, @Detail{i});";
-                    dynamicParameters.Add($"@AssetId{i}", assetId);
-                    dynamicParameters.Add($"@Detail{i}", detail);
-                    dynamicParameters.Add($"@newId{i}", newId);
+                    var oldLicenseDetail = oldLicenseDetails.FirstOrDefault(x => x.AssetId == assetId);
+                    if (oldLicenseDetail == null)
+                    {
+                        sqlCommand = $"INSERT INTO LicenseDetail (LicenseDetailId, LicenseId, AssetId, Detail) VALUES (@newId, @LicenseId, @AssetId, @Detail);";
+                        dynamicParameters = new DynamicParameters();
+                        dynamicParameters.Add("@LicenseId", license.LicenseId);
+                        dynamicParameters.Add("@AssetId", assetId);
+                        dynamicParameters.Add("@Detail", detail);
+                        dynamicParameters.Add("@newId", newId);
+                        result += sqlConnection.Execute(sqlCommand, param: dynamicParameters);
+                    }
+                    else
+                    {
+                        if (oldLicenseDetail.Detail != detail)
+                        {
+                            sqlCommand = $"UPDATE LicenseDetail SET Detail = @Detail WHERE AssetId = @AssetId";
+                            dynamicParameters = new DynamicParameters();
+                            dynamicParameters.Add("@Detail", detail);
+                            dynamicParameters.Add("@AssetId", assetId);
+                            result += sqlConnection.Execute(sqlCommand, param: dynamicParameters);
+                        }
+                    }
                 }
-                //Thực thi
-                result = sqlConnection.Execute(sqlCommand, param: dynamicParameters);
+                //Xóa các bản ghi có AssetId không thuộc license.LicenseDetail
+                foreach (var oldLicenseDetail in oldLicenseDetails)
+                {
+                    var assetId = oldLicenseDetail.AssetId;
+                    var oldLicenseDetailInLicenseDetail = license.LicenseDetail.FirstOrDefault(x => x.AssetId == assetId);
+                    if (oldLicenseDetailInLicenseDetail == null)
+                    {
+                        sqlCommand = $"DELETE FROM LicenseDetail WHERE AssetId = @AssetId";
+                        dynamicParameters = new DynamicParameters();
+                        dynamicParameters.Add("@AssetId", assetId);
+                        result += sqlConnection.Execute(sqlCommand, param: dynamicParameters);
+                    }
+                }
 
                 return result;
 

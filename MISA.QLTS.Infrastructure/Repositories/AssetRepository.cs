@@ -131,6 +131,56 @@ namespace MISA.QLTS.Infrastructure.Repositories
         }
 
         /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="searchText"></param>
+        /// <param name="assetCategory"></param>
+        /// <param name="department"></param>
+        /// <param name="pageSize"></param>
+        /// <param name="pageNumber"></param>
+        /// <returns></returns>
+        public object FiltersListAssetsForLicense(string? searchText, string? assetCategory, string? department, int? pageSize, int? pageNumber, Guid licenseId)
+        {
+            using (sqlConnection = new MySqlConnection(connectionString))
+            {
+                sqlConnection.Open();
+                searchText = "%" + searchText + "%";
+                //Build câu truy vấn theo các điều kiện
+                var sqlCommand = "FROM Asset WHERE (AssetCode LIKE @searchText OR AssetName LIKE @searchText) ";
+                if (assetCategory != null)
+                    sqlCommand += "AND AssetCategoryName = @assetCategory ";
+                if (department != null)
+                    sqlCommand += "AND DepartmentName = @department ";
+
+                sqlCommand += "AND AssetId NOT IN ((SELECT AssetId FROM licensedetail WHERE LicenseId = @licenseId)) ";
+
+                DynamicParameters dynamicParameters = new DynamicParameters();
+                dynamicParameters.Add("@searchText", searchText);
+                dynamicParameters.Add("@assetCategory", assetCategory);
+                dynamicParameters.Add("@department", department);
+                dynamicParameters.Add("@licenseId", licenseId);
+
+                //Đếm tổng số bản ghi
+                var countCommand = $"SELECT COUNT(*) " + sqlCommand;
+                var totalRecords = sqlConnection.QueryFirstOrDefault<int>(countCommand, param: dynamicParameters);
+
+                //Lấy ra các bản ghi theo các điều kiện
+                sqlCommand = $"SELECT * " + sqlCommand + $"ORDER BY AssetCode DESC LIMIT @start,@pageSize";
+                dynamicParameters.Add("@start", (pageNumber - 1) * pageSize);
+                dynamicParameters.Add("@pageSize", pageSize);
+
+                var assets = sqlConnection.Query<Asset>(sqlCommand, param: dynamicParameters);
+                return new
+                {
+                    totalRecords = totalRecords,
+                    data = assets
+                };
+
+            }
+
+        }
+
+        /// <summary>
         /// Lấy ra danh sách tài sản theo chứng từ (API để click bảng trên show bảng dưới)
         /// Ý tưởng:
         /// + Lấy danh sách các assetId theo licenseId từ bảng LicenseDetail

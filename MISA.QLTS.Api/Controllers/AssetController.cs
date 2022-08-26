@@ -154,6 +154,31 @@ namespace MISA.QLTS.Api.Controllers
             return Ok(assetReferencedLicense);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="searchText"></param>
+        /// <param name="assetCategory"></param>
+        /// <param name="department"></param>
+        /// <param name="pageSize"></param>
+        /// <param name="pageNumber"></param>
+        /// <returns></returns>
+        /// <exception cref="MISAValidateException"></exception>
+        [HttpGet("FilterListAssetsForLicense")]
+        public IActionResult FilterListAssetsForLicense(string? searchText, string? assetCategory, string? department, int? pageSize, int? pageNumber, Guid licenseId)
+        {
+            try
+            {
+                var assets = _assetRepository.FiltersListAssetsForLicense(searchText, assetCategory, department, pageSize, pageNumber, licenseId);
+                return Ok(assets);
+            }
+            catch (Exception e)
+            {
+                throw new MISAValidateException(e);
+            }
+
+        }
+
         #endregion
     }
 }

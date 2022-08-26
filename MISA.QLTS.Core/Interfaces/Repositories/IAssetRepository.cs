@@ -75,6 +75,18 @@ namespace MISA.QLTS.Core.Interfaces.Repositories
         /// Created by: VDDong (18/08/2022)
         object CheckAssetReferencedToLicense(Guid assetId);
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="searchText"></param>
+        /// <param name="assetCategory"></param>
+        /// <param name="department"></param>
+        /// <param name="pageSize"></param>
+        /// <param name="pageNumber"></param>
+        /// <param name="licenseId"></param>
+        /// <returns></returns>
+        object FiltersListAssetsForLicense(string? searchText, string? assetCategory, string? department, int? pageSize, int? pageNumber, Guid licenseId);
+
         #endregion
     }
 }
